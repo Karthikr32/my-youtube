@@ -35,6 +35,7 @@ On larger screens (desktops), medium screens (laptop, tabs), small screens (mobi
  - **Responsive Images:** Images, such as video thumbnails, are set to be responsive, adjusting their size based on the screen width to avoid breaking the layout.
 
 [Repo link](https://github.com/Karthikr32/my-youtube)
+[Demo link](https://my-youtube-six-henna.vercel.app/)
 
 ## Screenshots
 ![image1](./screenshots/img1.JPG)
