@@ -1,0 +1,84 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 35px;
+  column-gap: 20px;
+  margin-bottom: 2em;
+}
+.thumbnail-1 {
+  width: 100%;
+}
+.thumbnail-div {
+  margin-bottom: 10px;
+  position: relative;
+}
+.para-head {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 17.5px;
+  font-weight: 500; /*it depends on how we customize and copied code from google fonts*/
+  line-height: 25px;
+}
+#para1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.708);
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+#para2 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.719);
+  margin-top: 5px;
+  cursor: auto;
+}
+.icon-one img {
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+}
+
+.mini-info {
+  width: 100%;
+}
+/*I just commanted all thes display: inline-block;
+    width: 240px;                   
+    Bcoz, of replacing it with using Grid CSS*/
+
+.div-icon-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 10px;
+}
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  right: 6px;
+  font-size: 15px;
+  padding: 4px 6px 4px 6px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.all-video-links {
+  text-decoration: none;
+}
+
+@media (max-width: 1420px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 750px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

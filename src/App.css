@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scrollbar-width: thin;
+}
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  padding-top: 103px; /*Its helps to separate the "Header" and "Grid-container"*/
+  padding-left: 118px;
+  padding-right: 30px;
+  -webkit-transition: 0.5s;
+}
