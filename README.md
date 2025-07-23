@@ -34,11 +34,11 @@ On larger screens (desktops), medium screens (laptop, tabs), small screens (mobi
  - **Flexbox/Grid Layout:** Flexbox and CSS Grid are helpful for creating dynamic layouts that change according to the screen width. The video thumbnails will be arranged in a grid on larger screens and switch to a single-column layout on smaller screens.
  - **Responsive Images:** Images, such as video thumbnails, are set to be responsive, adjusting their size based on the screen width to avoid breaking the layout.
 
-[Repo link](https://github.com/Karthikr32/my-youtube)
-[Demo link](https://my-youtube-six-henna.vercel.app/)
+[Repo link](https://github.com/Karthikr32/my-youtube)  
+[Demo link](https://my-youtube-six-henna.vercel.app/)  
 
 ## Screenshots
-![image1](./screenshots/img1.JPG)
-![image2](./screenshots/img2.JPG)
-![image3](./screenshots/img3.JPG)
-![image4](./screenshots/img4.JPG)
+![image1](./screenshots/img1.JPG)  
+![image2](./screenshots/img2.JPG)  
+![image3](./screenshots/img3.JPG)  
+![image4](./screenshots/img4.JPG)  
